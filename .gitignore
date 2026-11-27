@@ -1,7 +1,15 @@
+# 敏感配置
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+
+# 日志
 logs/
 *.log
-.DS_Store
-.env
-.gitignore
-README.md
 
+# 编译产物
+*.exe
+*.test
